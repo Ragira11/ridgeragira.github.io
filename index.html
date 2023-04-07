@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIDGE RAGIRA PERSONAL PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f2f36d4c63.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"> 
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">   
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>DATA ANALYST</p>
+            <h1>Hi, I am <span>Ridge</span><br>Ragira from Nairobi, Kenya</h1>
+        </div>
+    </div>
+</div>
+<!----------- ABOUT SECTION--------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>During my recent Sales Agent role at Twiga Foods Limited, 
+                I honed my communication and customer service skills while providing technical support and maintaining relationships with clients. 
+                This experience has also given me a deeper understanding of how data analysis can be leveraged to 
+                support business decisions and improve customer service.During my recent Sales Agent role at Twiga Foods Limited, 
+                I honed my communication and customer service skills while providing technical support and maintaining relationships with clients. 
+                This experience has also given me a deeper understanding of how data analysis can be leveraged to support business decisions 
+                and improve customer service.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Data Cleaning</span><br>Carefully scrutinizing data to filter only the most useful data</li>
+                        <li><span>Data Analysis</span><br>Analysing data to decipher all the key insights needed for decision-making </li>
+                        <li><span>Data Visualization</span><br>Creating reports from company data for stakeholders to understand the data insights</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022-2023</span><br>Sales Agent, Twiga Foods Ltd</li>
+                        <li><span>2021-2022</span><br>Junior IT Support Specialist, Supreme Court of Kenya</li>
+                        <li><span>2018-2019</span><br>Customer Service Representative, Text Book Centre</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education"> 
+                    <ul>
+                        <li><span>2022</span><br>Bsc. Computer Technology, Multimedia University of Kenya</li>
+                        <li><span>2022</span><br> Financial Modeling and Valuation Analysis, Corporate Finance Institute</li>
+                        <li><span>2022</span><br>Google Data Analytics, Coursera</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------SERVICES------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>During my recent Sales Agent role at Twiga Foods Limited, I honed my communication and customer service skills while providing technical support 
+                and maintaining relationships with clients. This experience has also given me a deeper understanding of how data analysis can be leveraged
+                to support business decisions and improve customer service.During my recent Sales Agent role at 
+                Twiga Foods Limited, I honed my communication and customer service skills while providing technical support and maintaining relationships with clients.'
+                This experience has also given me a deeper understanding of how data analysis can be leveraged to support business decisions and improve customer service.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>During my recent Sales Agent role at Twiga Foods Limited, I honed my communication and customer service skills while providing technical support 
+                and maintaining relationships with clients. This experience has also given me a deeper understanding of how data analysis can be leveraged
+                to support business decisions and improve customer service.During my recent Sales Agent role at 
+                Twiga Foods Limited, I honed my communication and customer service skills while providing technical support and maintaining relationships with clients.'
+                This experience has also given me a deeper understanding of how data analysis can be leveraged to support business decisions and improve customer service.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>During my recent Sales Agent role at Twiga Foods Limited, I honed my communication and customer service skills while providing technical support 
+                and maintaining relationships with clients. This experience has also given me a deeper understanding of how data analysis can be leveraged
+                to support business decisions and improve customer service.During my recent Sales Agent role at 
+                Twiga Foods Limited, I honed my communication and customer service skills while providing technical support and maintaining relationships with clients.'
+                This experience has also given me a deeper understanding of how data analysis can be leveraged to support business decisions and improve customer service.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------PORTFOLIO-->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class = "sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to talented people around the world.
+                    Download it from Play Store today
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to a database of music from around the world.
+                    It's time to grab your dancing shoes
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to talented people around the world.
+                    Download it from Play Store today
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!--------CONTACT---->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p id="email-link"><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                <p id="phone-link"><i class="fa-solid fa-square-phone"></i> +254757879027</p>
+                <div class="social-icons">
+                    <a href=" "><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/ridge-ragira/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=" "><i class="fa-brands fa-instagram"></i></a>
+                    <a href=" "><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text", name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Ridge. Made with <i class="fa-solid fa-heart"></i> by Web Design is Easy</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwbBiqq_HqcFT9d1VyKOdfAkTsB_jY_e9MJ4m6RjkJXkaOyLkVmzIuYUXXg2k1f8eqE/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script>
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        // If the user is on a mobile device, redirect the links to appropriate actions
+        var emailLink = document.getElementById("email-link");
+        emailLink.innerHTML = '<a href="mailto:contact@example.com">' + emailLink.innerHTML + '</a>';
+    
+        var phoneLink = document.getElementById("phone-link");
+        phoneLink.innerHTML = '<a href="tel:+254757879027">' + phoneLink.innerHTML + '</a>';
+    }
+    </script>
+</body>
+</html>
